@@ -27,7 +27,7 @@ describe('ProjectService', () => {
       ManagerId:1010,
       EndDate:new Date(),
       StartDate:new Date(),
-Priority:30,ProjectName:"First Test Project",ManagerName:"Kasim",
+Priority:30,ProjectName:"First Test Project",ManagerName:"MohamedMohamed",
 tasks:null,STATUS:"Active"
     };      
      expect(service.postProject(testData)).toBeTruthy();    
@@ -49,7 +49,7 @@ it('should have update user function', inject([ProjectService],(service:ProjectS
     ManagerId:1010,
     EndDate:new Date(),
     StartDate:new Date(),
-Priority:30,ProjectName:"First Test Project-Update",ManagerName:"Kasim",
+Priority:30,ProjectName:"First Test Project-Update",ManagerName:"Mohamed",
 tasks:null,STATUS:"Active"
   };      
     expect(service.putProjects(testData.Project_ID,testData)).toBeTruthy();

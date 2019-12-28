@@ -43,8 +43,8 @@ describe('UserComponent', () => {
    it('should validate the users', () => {
      fixture.whenStable().then(
        ()=>{
-         component.sampleForm.controls['FirstName'].setValue('Moh');
-         component.sampleForm.controls['LastName'].setValue('Kasim');
+         component.sampleForm.controls['FirstName'].setValue('Essa');
+         component.sampleForm.controls['LastName'].setValue('Mohamed');
         component.sampleForm.controls['Employee_Id'].setValue('689');
        }
      );       
@@ -54,7 +54,7 @@ describe('UserComponent', () => {
     fixture.whenStable().then(
       ()=>{
         component.sampleForm.controls['FirstName'].setValue('Moh');
-        component.sampleForm.controls['LastName'].setValue('Kasim');
+        component.sampleForm.controls['LastName'].setValue('Essak');
        component.sampleForm.controls['Employee_Id'].setValue('689');
       }
     );          
