@@ -47,7 +47,7 @@ userlist:Observable<any>;
   DeleteUser(User_ID:number)
   {
     // console.log(User_ID);
-     //console.log('http://localhost:61035/api/Users/'+User_ID);
+     //console.log('http://localhost:7860/api/Users/'+User_ID);
   // return  this.http.delete(this.baseURL+'/Users?id='+User_ID)    
   return  this.http.delete(this.baseURL+'/Users/Deleteuser/'+User_ID)    
   }
